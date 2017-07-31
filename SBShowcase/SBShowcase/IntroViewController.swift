@@ -19,7 +19,7 @@ class IntroViewController: UIViewController {
     // Background Assignment 
     
     func assignbackground(){
-        let background = #imageLiteral(resourceName: "back")
+        let background = #imageLiteral(resourceName: "introbackCrop")
         
         var imageView : UIImageView!
         imageView = UIImageView(frame: view.bounds)

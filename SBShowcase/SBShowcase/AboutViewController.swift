@@ -28,6 +28,7 @@ class AboutViewController: UIViewController {
     
     
     
+    @IBOutlet weak var contOut: UIButton!
     
     
     override func viewDidLoad() {
@@ -35,7 +36,9 @@ class AboutViewController: UIViewController {
         assignbackground()
         
         
-        
+        // Continue button outlet.
+        contOut.layer.borderWidth = 1;
+        contOut.layer.borderColor = UIColor.white.cgColor;
         
 
         // Do any additional setup after loading the view.

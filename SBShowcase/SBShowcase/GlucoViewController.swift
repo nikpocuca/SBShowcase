@@ -20,11 +20,8 @@ class GlucoViewController: UIViewController {
         super.viewDidLoad()
         
         
-        
-        // DECLARE BORDER COLOUR AND OTHERS. 
-        backOutlet.layer.borderColor = UIColor.blue.cgColor
-        
-        backOutlet.layer.borderWidth = 1
+
+   
         
         
 
