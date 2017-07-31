@@ -141,6 +141,9 @@
                                 <state key="normal" title="Continue">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Xu7-Dk-3r5" kind="show" id="1IW-LN-MUH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -359,6 +362,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wnK-uL-PMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2392.8000000000002" y="778.56071964017997"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CPO-tT-WX0">
+            <objects>
+                <viewController id="Xu7-Dk-3r5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XFy-eZ-Ykq"/>
+                        <viewControllerLayoutGuide type="bottom" id="QvE-Yc-nin"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tnF-0f-J2m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h11-Wk-dBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2182" y="38"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rhx-8d-P4S">
@@ -599,10 +620,10 @@
         <image name="title" width="561" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QQ0-Ql-bG6"/>
-        <segue reference="K2T-fp-L9D"/>
-        <segue reference="NRS-ch-Xhy"/>
-        <segue reference="ixv-nX-Gou"/>
+        <segue reference="KnJ-G4-0GQ"/>
         <segue reference="O0y-0e-pgx"/>
+        <segue reference="bsC-Ny-Ko5"/>
+        <segue reference="SBt-Jg-xTv"/>
+        <segue reference="sW9-sr-NBx"/>
     </inferredMetricsTieBreakers>
 </document>
