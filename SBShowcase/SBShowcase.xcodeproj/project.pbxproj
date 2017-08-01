@@ -11,6 +11,7 @@
 		523E237D1F295DAA00360783 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E237C1F295DAA00360783 /* IntroViewController.swift */; };
 		523E23801F295DAA00360783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E237E1F295DAA00360783 /* Main.storyboard */; };
 		523E23851F295DAA00360783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E23831F295DAA00360783 /* LaunchScreen.storyboard */; };
+		525DC7F41F30CFE900754A5E /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7F31F30CFE900754A5E /* ConsentViewController.swift */; };
 		52E64D8B1F2A6C04000B5AAA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E64D8A1F2A6C04000B5AAA /* AboutViewController.swift */; };
 		52E64D8D1F2A6EC0000B5AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E64D8C1F2A6EC0000B5AAA /* Assets.xcassets */; };
 		52E64D901F2BDACC000B5AAA /* GlucoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */; };
@@ -25,6 +26,7 @@
 		523E237F1F295DAA00360783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		523E23841F295DAA00360783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523E23861F295DAA00360783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525DC7F31F30CFE900754A5E /* ConsentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
 		52E64D8A1F2A6C04000B5AAA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		52E64D8C1F2A6EC0000B5AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */,
+				525DC7F31F30CFE900754A5E /* ConsentViewController.swift */,
 			);
 			name = RappsCollection;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				52E64D8B1F2A6C04000B5AAA /* AboutViewController.swift in Sources */,
 				52E64D901F2BDACC000B5AAA /* GlucoViewController.swift in Sources */,
+				525DC7F41F30CFE900754A5E /* ConsentViewController.swift in Sources */,
 				523E237D1F295DAA00360783 /* IntroViewController.swift in Sources */,
 				523E237B1F295DAA00360783 /* AppDelegate.swift in Sources */,
 			);
