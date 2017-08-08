@@ -23,6 +23,7 @@ class ConsentViewController: UIViewController {
     
 
     
+    @IBOutlet weak var nextOut: UIButton!
     
     @IBAction func tryTap(_ sender: Any) {
         
@@ -100,6 +101,7 @@ class ConsentViewController: UIViewController {
         super.viewDidLoad()
 
     
+        
         UIView.appearance().tintColor = UIColor.blue
         
         

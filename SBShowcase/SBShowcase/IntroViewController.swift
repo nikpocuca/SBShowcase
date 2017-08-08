@@ -37,8 +37,7 @@ class IntroViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        assignbackground()
-
+    
         beginOut.layer.borderColor = UIColor.white.cgColor
         beginOut.layer.cornerRadius = 2;
         beginOut.layer.borderWidth = 1;

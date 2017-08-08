@@ -12,6 +12,13 @@
 		523E23801F295DAA00360783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E237E1F295DAA00360783 /* Main.storyboard */; };
 		523E23851F295DAA00360783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523E23831F295DAA00360783 /* LaunchScreen.storyboard */; };
 		525DC7F41F30CFE900754A5E /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7F31F30CFE900754A5E /* ConsentViewController.swift */; };
+		525DC7F61F31066A00754A5E /* surveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7F51F31066A00754A5E /* surveyViewController.swift */; };
+		525DC7F81F32098A00754A5E /* surveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7F71F32098A00754A5E /* surveyTask.swift */; };
+		525DC7FB1F3250C800754A5E /* spacialTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7FA1F3250C800754A5E /* spacialTask.swift */; };
+		525DC7FD1F3250F500754A5E /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7FC1F3250F500754A5E /* taskViewController.swift */; };
+		525DC7FF1F3252F700754A5E /* tohTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC7FE1F3252F700754A5E /* tohTask.swift */; };
+		525DC8011F32728900754A5E /* analyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC8001F32728900754A5E /* analyticsViewController.swift */; };
+		525DC8041F34BD7200754A5E /* walkingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DC8031F34BD7200754A5E /* walkingTask.swift */; };
 		52E64D8B1F2A6C04000B5AAA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E64D8A1F2A6C04000B5AAA /* AboutViewController.swift */; };
 		52E64D8D1F2A6EC0000B5AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E64D8C1F2A6EC0000B5AAA /* Assets.xcassets */; };
 		52E64D901F2BDACC000B5AAA /* GlucoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */; };
@@ -27,6 +34,13 @@
 		523E23841F295DAA00360783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523E23861F295DAA00360783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525DC7F31F30CFE900754A5E /* ConsentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
+		525DC7F51F31066A00754A5E /* surveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = surveyViewController.swift; sourceTree = "<group>"; };
+		525DC7F71F32098A00754A5E /* surveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = surveyTask.swift; sourceTree = "<group>"; };
+		525DC7FA1F3250C800754A5E /* spacialTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spacialTask.swift; sourceTree = "<group>"; };
+		525DC7FC1F3250F500754A5E /* taskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
+		525DC7FE1F3252F700754A5E /* tohTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tohTask.swift; sourceTree = "<group>"; };
+		525DC8001F32728900754A5E /* analyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = analyticsViewController.swift; sourceTree = "<group>"; };
+		525DC8031F34BD7200754A5E /* walkingTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walkingTask.swift; sourceTree = "<group>"; };
 		52E64D8A1F2A6C04000B5AAA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		52E64D8C1F2A6EC0000B5AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +94,7 @@
 				523E237A1F295DAA00360783 /* AppDelegate.swift */,
 				523E237C1F295DAA00360783 /* IntroViewController.swift */,
 				523E237E1F295DAA00360783 /* Main.storyboard */,
+				525DC7F91F32099000754A5E /* Tasks */,
 				52E64D8C1F2A6EC0000B5AAA /* Assets.xcassets */,
 				52E64D8A1F2A6C04000B5AAA /* AboutViewController.swift */,
 				523E23831F295DAA00360783 /* LaunchScreen.storyboard */,
@@ -88,11 +103,25 @@
 			path = SBShowcase;
 			sourceTree = "<group>";
 		};
+		525DC7F91F32099000754A5E /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				525DC7F71F32098A00754A5E /* surveyTask.swift */,
+				525DC7FA1F3250C800754A5E /* spacialTask.swift */,
+				525DC8031F34BD7200754A5E /* walkingTask.swift */,
+				525DC7FE1F3252F700754A5E /* tohTask.swift */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
 		52E64D8E1F2BDAAC000B5AAA /* RappsCollection */ = {
 			isa = PBXGroup;
 			children = (
 				52E64D8F1F2BDACC000B5AAA /* GlucoViewController.swift */,
+				525DC7FC1F3250F500754A5E /* taskViewController.swift */,
+				525DC8001F32728900754A5E /* analyticsViewController.swift */,
 				525DC7F31F30CFE900754A5E /* ConsentViewController.swift */,
+				525DC7F51F31066A00754A5E /* surveyViewController.swift */,
 			);
 			name = RappsCollection;
 			sourceTree = "<group>";
@@ -229,8 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525DC7F61F31066A00754A5E /* surveyViewController.swift in Sources */,
+				525DC7F81F32098A00754A5E /* surveyTask.swift in Sources */,
 				52E64D8B1F2A6C04000B5AAA /* AboutViewController.swift in Sources */,
+				525DC8011F32728900754A5E /* analyticsViewController.swift in Sources */,
 				52E64D901F2BDACC000B5AAA /* GlucoViewController.swift in Sources */,
+				525DC7FF1F3252F700754A5E /* tohTask.swift in Sources */,
+				525DC7FD1F3250F500754A5E /* taskViewController.swift in Sources */,
+				525DC7FB1F3250C800754A5E /* spacialTask.swift in Sources */,
+				525DC8041F34BD7200754A5E /* walkingTask.swift in Sources */,
 				525DC7F41F30CFE900754A5E /* ConsentViewController.swift in Sources */,
 				523E237D1F295DAA00360783 /* IntroViewController.swift in Sources */,
 				523E237B1F295DAA00360783 /* AppDelegate.swift in Sources */,

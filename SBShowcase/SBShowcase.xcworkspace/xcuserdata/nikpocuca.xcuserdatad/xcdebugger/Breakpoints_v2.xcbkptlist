@@ -10,13 +10,119 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SBShowcase/ConsentViewController.swift"
-            timestampString = "523300584.710899"
+            timestampString = "523308677.680058"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "didReceiveMemoryWarning()"
-            landmarkType = "7">
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "ConsentViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SBShowcase/surveyTask.swift"
+            timestampString = "523380248.259056"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAccelerometerRecorder.h"
+            timestampString = "523547721.553886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "@interface ORKAccelerometerRecorder"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SBShowcase/walkingTask.swift"
+            timestampString = "523559950.714093"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SBShowcase/walkingTask.swift"
+            timestampString = "523559950.714093"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.h"
+            timestampString = "523888112.567062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "@protocol ORKTaskViewControllerDelegate"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ORKTaskViewController delegate]"
+                  moduleName = "ResearchKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikpocuca/SBShowcase/SBShowcase/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.h"
+                  timestampString = "523888112.92755"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ORKTaskViewController setDelegate:]"
+                  moduleName = "ResearchKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikpocuca/SBShowcase/SBShowcase/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.h"
+                  timestampString = "523888112.937143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
